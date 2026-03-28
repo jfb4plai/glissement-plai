@@ -8,9 +8,9 @@
 <meta property="og:title" content="Glissement — PLAI">
 <meta property="og:description" content="Sensibilisation à la délégation cognitive. On ne bascule pas, on glisse.">
 <meta property="og:url" content="https://glissement-plai.vercel.app">
-<meta name="theme-color" content="#14110e">
+<meta name="theme-color" content="#28241e">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫧</text></svg>">
 <meta name="author" content="Adaptation PLAI : Jean-François Béguin · Jeu original : Bertrand Formet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,10 +19,10 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   /* ── Encre ── */
-  --bg:#14110e;
-  --bg2:#1e1a15;
-  --bg3:#28231b;
-  --bg4:#332b20;
+  --bg:#28241e;
+  --bg2:#322d25;
+  --bg3:#3c362c;
+  --bg4:#463e33;
   --border:rgba(232,221,208,0.07);
   --border2:rgba(232,221,208,0.13);
   --border3:rgba(232,221,208,0.22);
@@ -175,7 +175,7 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
 .iact-sub{display:block;font-size:10px;opacity:0.6}
 
 /* ══ DROITE ══ */
-#right{border-left:1px solid var(--border2);overflow-y:auto;background:#0f0d0a;display:flex;flex-direction:column;width:clamp(360px,28%,520px);flex-shrink:0}
+#right{border-left:1px solid var(--border2);overflow-y:auto;background:#322d25;display:flex;flex-direction:column;width:clamp(360px,28%,520px);flex-shrink:0}
 .rsec{padding:12px 14px 10px;border-bottom:1px solid rgba(232,221,208,0.12);flex-shrink:0}
 .rsec.rsec-main{flex:1;overflow:hidden;display:flex;flex-direction:column;min-height:80px}
 .rsec.rsec-main.rsec-empty{justify-content:center}
@@ -219,7 +219,7 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .tt{cursor:help}
-#tooltip{position:fixed;display:none;width:220px;padding:10px 13px;background:#1e1a15;border:1px solid rgba(232,221,208,0.22);border-radius:4px;font-size:11px;line-height:1.65;color:#e8ddd0;font-family:'JetBrains Mono',monospace;font-weight:400;text-transform:none;letter-spacing:0;z-index:9999;pointer-events:none;white-space:normal;box-shadow:0 4px 16px rgba(0,0,0,0.5)}
+#tooltip{position:fixed;display:none;width:220px;padding:10px 13px;background:#322d25;border:1px solid rgba(232,221,208,0.22);border-radius:4px;font-size:11px;line-height:1.65;color:#e8ddd0;font-family:'JetBrains Mono',monospace;font-weight:400;text-transform:none;letter-spacing:0;z-index:9999;pointer-events:none;white-space:normal;box-shadow:0 4px 16px rgba(0,0,0,0.5)}
 #tooltip strong{color:var(--narr);font-weight:500}
 
 /* ══════════════════════════════
@@ -266,7 +266,7 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
 .fac-slider-row label{font-size:9px;color:#9a8068;min-width:16px}
 .fac-slider-row input[type=range]{width:90px;accent-color:#7ab8e8}
 .fac-slider-row span{font-size:10px;min-width:28px;text-align:right;font-variant-numeric:tabular-nums}
-#fac-notes{max-height:180px;overflow-y:auto;display:none;background:#0f0d0a;border:1px solid rgba(232,221,208,0.1);border-radius:2px;padding:8px 10px;margin-top:6px;font-size:10px;line-height:1.7;color:#b8a890}
+#fac-notes{max-height:180px;overflow-y:auto;display:none;background:#322d25;border:1px solid rgba(232,221,208,0.1);border-radius:2px;padding:8px 10px;margin-top:6px;font-size:10px;line-height:1.7;color:#b8a890}
 #fac-notes.show{display:block}
 .fac-note-item{border-bottom:1px solid rgba(232,221,208,0.07);padding:6px 0}
 .fac-note-item:last-child{border-bottom:none}
@@ -325,10 +325,10 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
   .iact-sub{font-size:9px}
 
   /* Onglets navigation */
-  #mob-nav{display:flex;background:#0f0d0a;border-top:1px solid rgba(232,221,208,0.1);position:fixed;bottom:0;left:0;right:0;z-index:50;padding-bottom:env(safe-area-inset-bottom,0px)}
+  #mob-nav{display:flex;background:#322d25;border-top:1px solid rgba(232,221,208,0.1);position:fixed;bottom:0;left:0;right:0;z-index:50;padding-bottom:env(safe-area-inset-bottom,0px)}
   .mob-tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:#9a8068;border-right:1px solid rgba(232,221,208,0.07);cursor:pointer;transition:all 0.15s;-webkit-tap-highlight-color:transparent}
   .mob-tab:last-child{border-right:none}
-  .mob-tab.active{color:var(--text);background:#1e1a15}
+  .mob-tab.active{color:var(--text);background:#322d25}
   .mob-tab-dot{width:4px;height:4px;border-radius:50%;background:var(--echo);margin:2px auto 0;opacity:0;transition:opacity 0.2s}
   .mob-tab-notif{color:var(--text)!important;animation:tabn 1s ease 3}
   @keyframes tabn{0%,100%{background:transparent}50%{background:rgba(122,184,232,0.12)}}
@@ -538,7 +538,7 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
     <!-- Seuils narratifs -->
     <div class="fac-group">
       <div class="fac-label">Seuils narratifs</div>
-      <select id="fac-seuil-sel" style="background:#0f0d0a;border:1px solid rgba(232,221,208,0.15);color:#b8a890;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 6px;border-radius:2px;width:100%">
+      <select id="fac-seuil-sel" style="background:#322d25;border:1px solid rgba(232,221,208,0.15);color:#b8a890;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 6px;border-radius:2px;width:100%">
         <option value="0">Ag &lt; 80 — J'ai laissé Pl'ai…</option>
         <option value="1">Ag &lt; 60 — Je n'ai pas relu…</option>
         <option value="2">Ag &lt; 40 — Quelqu'un m'a demandé…</option>
@@ -562,7 +562,7 @@ body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospa
     <!-- Projets -->
     <div class="fac-group">
       <div class="fac-label">Projets</div>
-      <select id="fac-proj-sel" style="background:#0f0d0a;border:1px solid rgba(232,221,208,0.15);color:#b8a890;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 6px;border-radius:2px;width:100%">
+      <select id="fac-proj-sel" style="background:#322d25;border:1px solid rgba(232,221,208,0.15);color:#b8a890;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 6px;border-radius:2px;width:100%">
       </select>
       <button class="fac-btn fac-echo" onclick="facActiverProj()">▶ Activer</button>
     </div>
