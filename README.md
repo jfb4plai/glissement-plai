@@ -40,3 +40,11 @@ Sources vérifiées dans le corpus RISS (522 627 articles francophones) :
 
 - **Jeu original** : [Écho](https://github.com/uneIAparjour/echo) par Bertrand Formet — [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 - **Adaptation PLAI** : Jean-François Béguin — Pôle Liégeois d'Accompagnement vers une École Inclusive
+
+## Licences
+
+- **Code** : [PolyForm Noncommercial 1.0.0](LICENSE). Usage non commercial uniquement.
+- **Contenus pédagogiques** : [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Réutilisation et adaptation non commerciales, avec attribution et partage dans les mêmes conditions.
+- **Logo et identité visuelle PLAI** : tous droits réservés (voir `LICENSE-CONTENT.md`).
+
+Auteur : Jean-François Beguin, Référent numérique, https://jfb4plai.com
